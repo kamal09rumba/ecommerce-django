@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'shop',## app registration
+    'cart',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -110,3 +111,7 @@ STATIC_URL = '/static/'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+
+# the key to store cart in user session
+
+CART_SESSION_ID = 'cart'
