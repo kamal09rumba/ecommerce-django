@@ -125,7 +125,7 @@ CREATE TABLE `auth_user` (
 
 LOCK TABLES `auth_user` WRITE;
 /*!40000 ALTER TABLE `auth_user` DISABLE KEYS */;
-INSERT INTO `auth_user` VALUES (1,'pbkdf2_sha256$20000$NqL52fTpD5c7$vbX3Vx82hC9E9PzEY8RY0kqmdHVP5wLztA+9e4LaSns=','2018-11-13 10:41:30.584086',1,'kamal','','','example@gmail.com',1,1,'2018-11-13 10:41:05.965710');
+INSERT INTO `auth_user` VALUES (1,'pbkdf2_sha256$20000$NqL52fTpD5c7$vbX3Vx82hC9E9PzEY8RY0kqmdHVP5wLztA+9e4LaSns=','2018-11-17 16:08:06.627814',1,'kamal','','','example@gmail.com',1,1,'2018-11-13 10:41:05.965710');
 /*!40000 ALTER TABLE `auth_user` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -206,7 +206,7 @@ CREATE TABLE `django_admin_log` (
   KEY `django_admin_log_user_id_1d215b368ad9c38e_fk_auth_user_id` (`user_id`),
   CONSTRAINT `djang_content_type_id_4a3d073521b5112e_fk_django_content_type_id` FOREIGN KEY (`content_type_id`) REFERENCES `django_content_type` (`id`),
   CONSTRAINT `django_admin_log_user_id_1d215b368ad9c38e_fk_auth_user_id` FOREIGN KEY (`user_id`) REFERENCES `auth_user` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -215,7 +215,7 @@ CREATE TABLE `django_admin_log` (
 
 LOCK TABLES `django_admin_log` WRITE;
 /*!40000 ALTER TABLE `django_admin_log` DISABLE KEYS */;
-INSERT INTO `django_admin_log` VALUES (1,'2018-11-13 10:41:41.055765','1','Men',1,'',7,1),(2,'2018-11-13 10:41:46.857235','2','Women',1,'',7,1),(3,'2018-11-13 10:42:56.144898','1','Plain T-shirt',1,'',8,1),(4,'2018-11-13 14:03:42.919775','1','Plain T-shirt',2,'Changed image.',8,1),(5,'2018-11-13 14:04:00.553571','1','Plain T-shirt',2,'Changed image.',8,1),(6,'2018-11-13 14:04:05.184333','1','Plain T-shirt',2,'No fields changed.',8,1),(7,'2018-11-13 14:10:26.928614','2','Pink Floral Printed Fancy Georgette Saree for Women',1,'',8,1);
+INSERT INTO `django_admin_log` VALUES (1,'2018-11-13 10:41:41.055765','1','Men',1,'',7,1),(2,'2018-11-13 10:41:46.857235','2','Women',1,'',7,1),(3,'2018-11-13 10:42:56.144898','1','Plain T-shirt',1,'',8,1),(4,'2018-11-13 14:03:42.919775','1','Plain T-shirt',2,'Changed image.',8,1),(5,'2018-11-13 14:04:00.553571','1','Plain T-shirt',2,'Changed image.',8,1),(6,'2018-11-13 14:04:05.184333','1','Plain T-shirt',2,'No fields changed.',8,1),(7,'2018-11-13 14:10:26.928614','2','Pink Floral Printed Fancy Georgette Saree for Women',1,'',8,1),(8,'2018-11-17 16:12:03.911492','3','Levi\'s 511 Light Blue Slim Stretch Jeans for Men',1,'',8,1),(9,'2018-11-17 16:13:13.254647','4','Levi\'s 511 Blue Slim Stretch Jeans for Men',1,'',8,1),(10,'2018-11-17 16:17:34.385297','5','Zip Up Hoodie',1,'',8,1),(11,'2018-11-17 16:18:58.471650','6','Zip Up Hoodie',1,'',8,1),(12,'2018-11-17 16:20:01.663357','7','Wildcraft Henley Sweater for Men (Navy-Blue)',1,'',8,1),(13,'2018-11-17 16:20:59.582749','3','Book',1,'',7,1),(14,'2018-11-17 16:32:03.484214','8','The Reckoning: A Novel',1,'',8,1),(15,'2018-11-17 16:33:30.536883','9','Elevation',1,'',8,1),(16,'2018-11-17 16:34:33.359157','10','Dark Sacred Night (A Ballard and Bosch Novel) ',1,'',8,1);
 /*!40000 ALTER TABLE `django_admin_log` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -293,7 +293,7 @@ CREATE TABLE `django_session` (
 
 LOCK TABLES `django_session` WRITE;
 /*!40000 ALTER TABLE `django_session` DISABLE KEYS */;
-INSERT INTO `django_session` VALUES ('5hql03sem4ce4f5gsnb31gtrclei55b6','YWZhYThhNjI5YzU1MDBmZTZlZjhlMjkzNjg5OGM4MmUxNDA3MDZhODp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzYzYxYTQ2OGY5MDg1NjQyNDA3ZjdmZTM1YTY0MTAyNTk0NjBlYTVhIn0=','2018-11-27 10:41:30.629011');
+INSERT INTO `django_session` VALUES ('5hql03sem4ce4f5gsnb31gtrclei55b6','YWZhYThhNjI5YzU1MDBmZTZlZjhlMjkzNjg5OGM4MmUxNDA3MDZhODp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzYzYxYTQ2OGY5MDg1NjQyNDA3ZjdmZTM1YTY0MTAyNTk0NjBlYTVhIn0=','2018-11-27 10:41:30.629011'),('6lu1zyvl3ahps2rsrmd4pra19jtynzgs','ZWFkMjc5ZDFjZTA1YTE5N2JkY2M1MjY2NWEyYTEyYTU4ODJmZDc5ZDp7ImNhcnQiOnsiMTAiOnsicXVhbnRpdHkiOjksInByaWNlIjoiMTEzNC4wMCJ9fX0=','2018-12-02 12:34:15.689777');
 /*!40000 ALTER TABLE `django_session` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -311,7 +311,7 @@ CREATE TABLE `shop_category` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `slug` (`slug`),
   KEY `shop_category_b068931c` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -320,7 +320,7 @@ CREATE TABLE `shop_category` (
 
 LOCK TABLES `shop_category` WRITE;
 /*!40000 ALTER TABLE `shop_category` DISABLE KEYS */;
-INSERT INTO `shop_category` VALUES (1,'Men','men'),(2,'Women','women');
+INSERT INTO `shop_category` VALUES (1,'Men','men'),(2,'Women','women'),(3,'Book','book');
 /*!40000 ALTER TABLE `shop_category` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -349,7 +349,7 @@ CREATE TABLE `shop_product` (
   KEY `shop_product_b068931c` (`name`),
   KEY `shop_product_2dbcba41` (`slug`),
   CONSTRAINT `shop_product_category_id_68aa2e4c9d253468_fk_shop_category_id` FOREIGN KEY (`category_id`) REFERENCES `shop_category` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -358,17 +358,9 @@ CREATE TABLE `shop_product` (
 
 LOCK TABLES `shop_product` WRITE;
 /*!40000 ALTER TABLE `shop_product` DISABLE KEYS */;
-INSERT INTO `shop_product` VALUES (1,'Plain T-shirt','plain-t-shirt','products/2018/11/13/9400038-Black-z-0.jpg','Plain T-shirt',200.00,10,1,'2018-11-13 10:42:56.103634','2018-11-13 14:04:05.182269',1),(2,'Pink Floral Printed Fancy Georgette Saree for Women','pink-floral-printed-fancy-georgette-saree-women','products/2018/11/13/saree.jpg','',2563.00,10,1,'2018-11-13 14:10:26.925461','2018-11-13 14:10:26.925547',2);
+INSERT INTO `shop_product` VALUES (1,'Plain T-shirt','plain-t-shirt','products/2018/11/13/9400038-Black-z-0.jpg','Plain T-shirt',200.00,10,1,'2018-11-13 10:42:56.103634','2018-11-13 14:04:05.182269',1),(2,'Pink Floral Printed Fancy Georgette Saree for Women','pink-floral-printed-fancy-georgette-saree-women','products/2018/11/13/saree.jpg','',2563.00,10,1,'2018-11-13 14:10:26.925461','2018-11-13 14:10:26.925547',2),(3,'Levi\'s 511 Light Blue Slim Stretch Jeans for Men','levis-511-light-blue-slim-stretch-jeans-men','products/2018/11/17/18298-041030-z-0.jpg','Levi\'s 511 Light Blue Slim Stretch Jeans for Men',5990.00,10,1,'2018-11-17 16:12:03.866229','2018-11-17 16:12:03.866339',1),(4,'Levi\'s 511 Blue Slim Stretch Jeans for Men','levis-511-blue-slim-stretch-jeans-men','products/2018/11/17/18298-036730-z-1.jpg','Levi\'s 511 Blue Slim Stretch Jeans for Men',5990.00,10,1,'2018-11-17 16:13:13.251944','2018-11-17 16:13:13.252051',1),(5,'Zip Up Hoodie','zip-hoodie','products/2018/11/17/BHWZ1300SGrey-Grey-z-0.jpg','Zip Up Hoodie',1500.00,10,1,'2018-11-17 16:17:34.383014','2018-11-17 16:17:34.383129',1),(6,'Zip Up Hoodie','zip-hoodie','products/2018/11/17/BHWZ1300SGreen-Green-z-0.jpg','Zip Up Hoodie',1500.00,10,1,'2018-11-17 16:18:58.469466','2018-11-17 16:18:58.469555',1),(7,'Wildcraft Henley Sweater for Men (Navy-Blue)','wildcraft-henley-sweater-men-navy-blue','products/2018/11/17/8-903338087717E12-z-3.jpg','Wildcraft Henley Sweater for Men (Navy-Blue)',2500.00,10,1,'2018-11-17 16:20:01.660992','2018-11-17 16:20:01.661081',1),(8,'The Reckoning: A Novel','reckoning-novel','products/2018/11/17/51Mbanx0rlL._SX327_BO1204203200_.jpg','A murder mystery, a courtroom drama, a family saga…The Reckoning is Grisham\'s argument that he\'s not just a boilerplate thriller writer. Most jurors will think the counselor has made his case.',1197.00,10,1,'2018-11-17 16:32:03.463160','2018-11-17 16:32:03.463275',3),(9,'Elevation','elevation','products/2018/11/17/51VJLKPxqL._SX353_BO1204203200_.jpg','The latest from legendary master storyteller Stephen King, a riveting, extraordinarily eerie, and moving story about a man whose mysterious affliction brings a small town together—a timely, upbeat tale about finding common ground despite deep-rooted differences. ',1197.00,10,1,'2018-11-17 16:33:30.534886','2018-11-17 16:33:30.534975',3),(10,'Dark Sacred Night (A Ballard and Bosch Novel) ','dark-sacred-night-ballard-and-bosch-novel','products/2018/11/17/41hEt2wE-L._SX321_BO1204203200_.jpg','Harry Bosch teams up with LAPD detective Renée Ballard to solve the murder of a young girl in the new thriller from #1 New York Times bestselling author Michael Connelly.',1134.00,10,1,'2018-11-17 16:34:33.357613','2018-11-17 16:34:33.357698',3);
 /*!40000 ALTER TABLE `shop_product` ENABLE KEYS */;
 UNLOCK TABLES;
-
---
--- Dumping events for database 'djangoshop'
---
-
---
--- Dumping routines for database 'djangoshop'
---
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -379,4 +371,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-11-13 21:16:48
+-- Dump completed on 2018-11-18 18:29:24
