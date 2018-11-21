@@ -40,6 +40,8 @@ INSTALLED_APPS = (
     'shop',## app registration
     'cart',
     'orders',
+    'paypal.standard.ipn',
+    'payment',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -120,3 +122,7 @@ CART_SESSION_ID = 'cart'
 
 # Email setup
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# django paypal settings
+PAYPAL_RECEIVER_EMAIL = 'developer09kamallama@gmail.com'
+PAYPAL_TEST = True
