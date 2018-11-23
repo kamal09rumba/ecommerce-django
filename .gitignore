@@ -105,3 +105,9 @@ venv.bak/
 
 # ignore 
 .idea/
+
+# ignore files required to app in heroku
+Procfile
+contenttype.json
+everything_else.json
+runtime.txt
