@@ -1,0 +1,1114 @@
+[
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "add_logentry"
+    },
+    "pk": 1
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "change_logentry"
+    },
+    "pk": 2
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "delete_logentry"
+    },
+    "pk": 3
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "add_permission"
+    },
+    "pk": 4
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "change_permission"
+    },
+    "pk": 5
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "delete_permission"
+    },
+    "pk": 6
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "add_group"
+    },
+    "pk": 7
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "change_group"
+    },
+    "pk": 8
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "delete_group"
+    },
+    "pk": 9
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "add_user"
+    },
+    "pk": 10
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "change_user"
+    },
+    "pk": 11
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "delete_user"
+    },
+    "pk": 12
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "add_contenttype"
+    },
+    "pk": 13
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "change_contenttype"
+    },
+    "pk": 14
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "delete_contenttype"
+    },
+    "pk": 15
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "add_session"
+    },
+    "pk": 16
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "change_session"
+    },
+    "pk": 17
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "delete_session"
+    },
+    "pk": 18
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add category",
+        "content_type": [
+            "shop",
+            "category"
+        ],
+        "codename": "add_category"
+    },
+    "pk": 19
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change category",
+        "content_type": [
+            "shop",
+            "category"
+        ],
+        "codename": "change_category"
+    },
+    "pk": 20
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete category",
+        "content_type": [
+            "shop",
+            "category"
+        ],
+        "codename": "delete_category"
+    },
+    "pk": 21
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add product",
+        "content_type": [
+            "shop",
+            "product"
+        ],
+        "codename": "add_product"
+    },
+    "pk": 22
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change product",
+        "content_type": [
+            "shop",
+            "product"
+        ],
+        "codename": "change_product"
+    },
+    "pk": 23
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete product",
+        "content_type": [
+            "shop",
+            "product"
+        ],
+        "codename": "delete_product"
+    },
+    "pk": 24
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add order",
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "codename": "add_order"
+    },
+    "pk": 25
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change order",
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "codename": "change_order"
+    },
+    "pk": 26
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete order",
+        "content_type": [
+            "orders",
+            "order"
+        ],
+        "codename": "delete_order"
+    },
+    "pk": 27
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add order item",
+        "content_type": [
+            "orders",
+            "orderitem"
+        ],
+        "codename": "add_orderitem"
+    },
+    "pk": 28
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change order item",
+        "content_type": [
+            "orders",
+            "orderitem"
+        ],
+        "codename": "change_orderitem"
+    },
+    "pk": 29
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete order item",
+        "content_type": [
+            "orders",
+            "orderitem"
+        ],
+        "codename": "delete_orderitem"
+    },
+    "pk": 30
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add PayPal IPN",
+        "content_type": [
+            "ipn",
+            "paypalipn"
+        ],
+        "codename": "add_paypalipn"
+    },
+    "pk": 31
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change PayPal IPN",
+        "content_type": [
+            "ipn",
+            "paypalipn"
+        ],
+        "codename": "change_paypalipn"
+    },
+    "pk": 32
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete PayPal IPN",
+        "content_type": [
+            "ipn",
+            "paypalipn"
+        ],
+        "codename": "delete_paypalipn"
+    },
+    "pk": 33
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$20000$NqL52fTpD5c7$vbX3Vx82hC9E9PzEY8RY0kqmdHVP5wLztA+9e4LaSns=",
+        "last_login": "2018-11-18T13:44:06.213Z",
+        "is_superuser": true,
+        "username": "kamal",
+        "first_name": "",
+        "last_name": "",
+        "email": "example@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2018-11-13T10:41:05.965Z",
+        "groups": [],
+        "user_permissions": []
+    },
+    "pk": 1
+},
+{
+    "model": "sessions.session",
+    "fields": {
+        "session_data": "NWNkYmEwYjRlYmRmODFkNDg3ZTk4MjNjMTIxNjJjYzJmM2FiZWZmYjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzYzYxYTQ2OGY5MDg1NjQyNDA3ZjdmZTM1YTY0MTAyNTk0NjBlYTVhIiwiY2FydCI6e319",
+        "expire_date": "2018-12-05T12:55:22.716Z"
+    },
+    "pk": "5hql03sem4ce4f5gsnb31gtrclei55b6"
+},
+{
+    "model": "sessions.session",
+    "fields": {
+        "session_data": "NWFjNWNmYjBhNTg3NzhhMWE3YjZkN2NkMjFhMzllYjhmNWU2NmMwZDp7ImNhcnQiOnt9LCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiM2M2MWE0NjhmOTA4NTY0MjQwN2Y3ZmUzNWE2NDEwMjU5NDYwZWE1YSIsIm9yZGVyX2lkIjo4fQ==",
+        "expire_date": "2018-12-04T16:35:48.760Z"
+    },
+    "pk": "sb2meglrcbx8g1po9kkx8pug9gfwqhii"
+},
+{
+    "model": "shop.category",
+    "fields": {
+        "name": "Men",
+        "slug": "men"
+    },
+    "pk": 1
+},
+{
+    "model": "shop.category",
+    "fields": {
+        "name": "Women",
+        "slug": "women"
+    },
+    "pk": 2
+},
+{
+    "model": "shop.category",
+    "fields": {
+        "name": "Book",
+        "slug": "book"
+    },
+    "pk": 3
+},
+{
+    "model": "shop.product",
+    "fields": {
+        "category": 1,
+        "name": "Plain T-shirt",
+        "slug": "plain-t-shirt",
+        "image": "products/2018/11/13/9400038-Black-z-0.jpg",
+        "description": "Plain T-shirt",
+        "price": "200.00",
+        "stock": 10,
+        "available": true,
+        "created": "2018-11-13T10:42:56.103Z",
+        "updated": "2018-11-13T14:04:05.182Z"
+    },
+    "pk": 1
+},
+{
+    "model": "shop.product",
+    "fields": {
+        "category": 2,
+        "name": "Pink Floral Printed Fancy Georgette Saree for Women",
+        "slug": "pink-floral-printed-fancy-georgette-saree-women",
+        "image": "products/2018/11/13/saree.jpg",
+        "description": "",
+        "price": "2563.00",
+        "stock": 10,
+        "available": true,
+        "created": "2018-11-13T14:10:26.925Z",
+        "updated": "2018-11-13T14:10:26.925Z"
+    },
+    "pk": 2
+},
+{
+    "model": "shop.product",
+    "fields": {
+        "category": 1,
+        "name": "Levi's 511 Light Blue Slim Stretch Jeans for Men",
+        "slug": "levis-511-light-blue-slim-stretch-jeans-men",
+        "image": "products/2018/11/17/18298-041030-z-0.jpg",
+        "description": "Levi's 511 Light Blue Slim Stretch Jeans for Men",
+        "price": "5990.00",
+        "stock": 10,
+        "available": true,
+        "created": "2018-11-17T16:12:03.866Z",
+        "updated": "2018-11-17T16:12:03.866Z"
+    },
+    "pk": 3
+},
+{
+    "model": "shop.product",
+    "fields": {
+        "category": 1,
+        "name": "Levi's 511 Blue Slim Stretch Jeans for Men",
+        "slug": "levis-511-blue-slim-stretch-jeans-men",
+        "image": "products/2018/11/17/18298-036730-z-1.jpg",
+        "description": "Levi's 511 Blue Slim Stretch Jeans for Men",
+        "price": "5990.00",
+        "stock": 10,
+        "available": true,
+        "created": "2018-11-17T16:13:13.251Z",
+        "updated": "2018-11-17T16:13:13.252Z"
+    },
+    "pk": 4
+},
+{
+    "model": "shop.product",
+    "fields": {
+        "category": 1,
+        "name": "Zip Up Hoodie",
+        "slug": "zip-hoodie",
+        "image": "products/2018/11/17/BHWZ1300SGrey-Grey-z-0.jpg",
+        "description": "Zip Up Hoodie",
+        "price": "1500.00",
+        "stock": 10,
+        "available": true,
+        "created": "2018-11-17T16:17:34.383Z",
+        "updated": "2018-11-17T16:17:34.383Z"
+    },
+    "pk": 5
+},
+{
+    "model": "shop.product",
+    "fields": {
+        "category": 1,
+        "name": "Zip Up Hoodie",
+        "slug": "zip-hoodie",
+        "image": "products/2018/11/17/BHWZ1300SGreen-Green-z-0.jpg",
+        "description": "Zip Up Hoodie",
+        "price": "1500.00",
+        "stock": 10,
+        "available": true,
+        "created": "2018-11-17T16:18:58.469Z",
+        "updated": "2018-11-17T16:18:58.469Z"
+    },
+    "pk": 6
+},
+{
+    "model": "shop.product",
+    "fields": {
+        "category": 1,
+        "name": "Wildcraft Henley Sweater for Men (Navy-Blue)",
+        "slug": "wildcraft-henley-sweater-men-navy-blue",
+        "image": "products/2018/11/17/8-903338087717E12-z-3.jpg",
+        "description": "Wildcraft Henley Sweater for Men (Navy-Blue)",
+        "price": "2500.00",
+        "stock": 10,
+        "available": true,
+        "created": "2018-11-17T16:20:01.660Z",
+        "updated": "2018-11-17T16:20:01.661Z"
+    },
+    "pk": 7
+},
+{
+    "model": "shop.product",
+    "fields": {
+        "category": 3,
+        "name": "The Reckoning: A Novel",
+        "slug": "reckoning-novel",
+        "image": "products/2018/11/17/51Mbanx0rlL._SX327_BO1204203200_.jpg",
+        "description": "A murder mystery, a courtroom drama, a family saga\u2026The Reckoning is Grisham's argument that he's not just a boilerplate thriller writer. Most jurors will think the counselor has made his case.",
+        "price": "1197.00",
+        "stock": 10,
+        "available": true,
+        "created": "2018-11-17T16:32:03.463Z",
+        "updated": "2018-11-17T16:32:03.463Z"
+    },
+    "pk": 8
+},
+{
+    "model": "shop.product",
+    "fields": {
+        "category": 3,
+        "name": "Elevation",
+        "slug": "elevation",
+        "image": "products/2018/11/17/51VJLKPxqL._SX353_BO1204203200_.jpg",
+        "description": "The latest from legendary master storyteller Stephen King, a riveting, extraordinarily eerie, and moving story about a man whose mysterious affliction brings a small town together\u2014a timely, upbeat tale about finding common ground despite deep-rooted differences. ",
+        "price": "1197.00",
+        "stock": 10,
+        "available": true,
+        "created": "2018-11-17T16:33:30.534Z",
+        "updated": "2018-11-17T16:33:30.534Z"
+    },
+    "pk": 9
+},
+{
+    "model": "shop.product",
+    "fields": {
+        "category": 3,
+        "name": "Dark Sacred Night (A Ballard and Bosch Novel) ",
+        "slug": "dark-sacred-night-ballard-and-bosch-novel",
+        "image": "products/2018/11/17/41hEt2wE-L._SX321_BO1204203200_.jpg",
+        "description": "Harry Bosch teams up with LAPD detective Ren\u00e9e Ballard to solve the murder of a young girl in the new thriller from #1 New York Times bestselling author Michael Connelly.",
+        "price": "1134.00",
+        "stock": 10,
+        "available": true,
+        "created": "2018-11-17T16:34:33.357Z",
+        "updated": "2018-11-17T16:34:33.357Z"
+    },
+    "pk": 10
+},
+{
+    "model": "orders.order",
+    "fields": {
+        "first_name": "abc",
+        "last_name": "def",
+        "email": "abc@abc.com",
+        "address": "abc",
+        "postal_code": "1122",
+        "city": "ktm",
+        "paid": false,
+        "created": "2018-11-18T15:18:57.456Z",
+        "updated": "2018-11-18T15:18:57.457Z"
+    },
+    "pk": 1
+},
+{
+    "model": "orders.order",
+    "fields": {
+        "first_name": "abcd",
+        "last_name": "def",
+        "email": "abc@abc.com",
+        "address": "abc",
+        "postal_code": "1122",
+        "city": "ktm",
+        "paid": false,
+        "created": "2018-11-19T17:01:05.157Z",
+        "updated": "2018-11-19T17:01:05.157Z"
+    },
+    "pk": 2
+},
+{
+    "model": "orders.order",
+    "fields": {
+        "first_name": "abcde",
+        "last_name": "def",
+        "email": "abc@abc.com",
+        "address": "abc",
+        "postal_code": "1122",
+        "city": "ktm",
+        "paid": false,
+        "created": "2018-11-19T17:12:08.991Z",
+        "updated": "2018-11-19T17:12:08.991Z"
+    },
+    "pk": 3
+},
+{
+    "model": "orders.order",
+    "fields": {
+        "first_name": "kamal",
+        "last_name": "def",
+        "email": "abc@abc.com",
+        "address": "abc",
+        "postal_code": "1122",
+        "city": "ktm",
+        "paid": false,
+        "created": "2018-11-19T17:15:24.410Z",
+        "updated": "2018-11-19T17:15:24.410Z"
+    },
+    "pk": 4
+},
+{
+    "model": "orders.order",
+    "fields": {
+        "first_name": "abc",
+        "last_name": "def",
+        "email": "kamal09rumba@gmail.com",
+        "address": "abc",
+        "postal_code": "1122",
+        "city": "ktm",
+        "paid": false,
+        "created": "2018-11-20T15:38:29.726Z",
+        "updated": "2018-11-20T15:38:29.726Z"
+    },
+    "pk": 5
+},
+{
+    "model": "orders.order",
+    "fields": {
+        "first_name": "abc",
+        "last_name": "def",
+        "email": "kamal09rumba@gmail.com",
+        "address": "abc",
+        "postal_code": "1122",
+        "city": "ktm",
+        "paid": false,
+        "created": "2018-11-20T15:39:48.394Z",
+        "updated": "2018-11-20T15:39:48.394Z"
+    },
+    "pk": 6
+},
+{
+    "model": "orders.order",
+    "fields": {
+        "first_name": "abc",
+        "last_name": "def",
+        "email": "kamal09rumba@gmail.com",
+        "address": "abc",
+        "postal_code": "1122",
+        "city": "ktm",
+        "paid": false,
+        "created": "2018-11-20T15:41:36.145Z",
+        "updated": "2018-11-20T15:41:36.145Z"
+    },
+    "pk": 7
+},
+{
+    "model": "orders.order",
+    "fields": {
+        "first_name": "abc",
+        "last_name": "def",
+        "email": "kamal09rumba@gmail.com",
+        "address": "abc",
+        "postal_code": "1122",
+        "city": "ktm",
+        "paid": false,
+        "created": "2018-11-20T15:45:15.288Z",
+        "updated": "2018-11-20T15:45:15.288Z"
+    },
+    "pk": 8
+},
+{
+    "model": "orders.orderitem",
+    "fields": {
+        "order": 1,
+        "product": 10,
+        "price": "1134.00",
+        "quantity": 1
+    },
+    "pk": 1
+},
+{
+    "model": "orders.orderitem",
+    "fields": {
+        "order": 1,
+        "product": 5,
+        "price": "1500.00",
+        "quantity": 1
+    },
+    "pk": 2
+},
+{
+    "model": "orders.orderitem",
+    "fields": {
+        "order": 2,
+        "product": 9,
+        "price": "1197.00",
+        "quantity": 1
+    },
+    "pk": 3
+},
+{
+    "model": "orders.orderitem",
+    "fields": {
+        "order": 3,
+        "product": 8,
+        "price": "1197.00",
+        "quantity": 1
+    },
+    "pk": 4
+},
+{
+    "model": "orders.orderitem",
+    "fields": {
+        "order": 4,
+        "product": 7,
+        "price": "2500.00",
+        "quantity": 1
+    },
+    "pk": 5
+},
+{
+    "model": "orders.orderitem",
+    "fields": {
+        "order": 5,
+        "product": 10,
+        "price": "1134.00",
+        "quantity": 1
+    },
+    "pk": 6
+},
+{
+    "model": "orders.orderitem",
+    "fields": {
+        "order": 6,
+        "product": 10,
+        "price": "1134.00",
+        "quantity": 1
+    },
+    "pk": 7
+},
+{
+    "model": "orders.orderitem",
+    "fields": {
+        "order": 7,
+        "product": 10,
+        "price": "1134.00",
+        "quantity": 1
+    },
+    "pk": 8
+},
+{
+    "model": "orders.orderitem",
+    "fields": {
+        "order": 8,
+        "product": 9,
+        "price": "1197.00",
+        "quantity": 1
+    },
+    "pk": 9
+},
+{
+    "model": "admin.logentry",
+    "fields": {
+        "action_time": "2018-11-13T10:41:41.055Z",
+        "user": [
+            "kamal"
+        ],
+        "content_type": [
+            "shop",
+            "category"
+        ],
+        "object_id": "1",
+        "object_repr": "Men",
+        "action_flag": 1,
+        "change_message": ""
+    },
+    "pk": 1
+},
+{
+    "model": "admin.logentry",
+    "fields": {
+        "action_time": "2018-11-13T10:41:46.857Z",
+        "user": [
+            "kamal"
+        ],
+        "content_type": [
+            "shop",
+            "category"
+        ],
+        "object_id": "2",
+        "object_repr": "Women",
+        "action_flag": 1,
+        "change_message": ""
+    },
+    "pk": 2
+},
+{
+    "model": "admin.logentry",
+    "fields": {
+        "action_time": "2018-11-13T10:42:56.144Z",
+        "user": [
+            "kamal"
+        ],
+        "content_type": [
+            "shop",
+            "product"
+        ],
+        "object_id": "1",
+        "object_repr": "Plain T-shirt",
+        "action_flag": 1,
+        "change_message": ""
+    },
+    "pk": 3
+},
+{
+    "model": "admin.logentry",
+    "fields": {
+        "action_time": "2018-11-13T14:03:42.919Z",
+        "user": [
+            "kamal"
+        ],
+        "content_type": [
+            "shop",
+            "product"
+        ],
+        "object_id": "1",
+        "object_repr": "Plain T-shirt",
+        "action_flag": 2,
+        "change_message": "Changed image."
+    },
+    "pk": 4
+},
+{
+    "model": "admin.logentry",
+    "fields": {
+        "action_time": "2018-11-13T14:04:00.553Z",
+        "user": [
+            "kamal"
+        ],
+        "content_type": [
+            "shop",
+            "product"
+        ],
+        "object_id": "1",
+        "object_repr": "Plain T-shirt",
+        "action_flag": 2,
+        "change_message": "Changed image."
+    },
+    "pk": 5
+},
+{
+    "model": "admin.logentry",
+    "fields": {
+        "action_time": "2018-11-13T14:04:05.184Z",
+        "user": [
+            "kamal"
+        ],
+        "content_type": [
+            "shop",
+            "product"
+        ],
+        "object_id": "1",
+        "object_repr": "Plain T-shirt",
+        "action_flag": 2,
+        "change_message": "No fields changed."
+    },
+    "pk": 6
+},
+{
+    "model": "admin.logentry",
+    "fields": {
+        "action_time": "2018-11-13T14:10:26.928Z",
+        "user": [
+            "kamal"
+        ],
+        "content_type": [
+            "shop",
+            "product"
+        ],
+        "object_id": "2",
+        "object_repr": "Pink Floral Printed Fancy Georgette Saree for Women",
+        "action_flag": 1,
+        "change_message": ""
+    },
+    "pk": 7
+},
+{
+    "model": "admin.logentry",
+    "fields": {
+        "action_time": "2018-11-17T16:12:03.911Z",
+        "user": [
+            "kamal"
+        ],
+        "content_type": [
+            "shop",
+            "product"
+        ],
+        "object_id": "3",
+        "object_repr": "Levi's 511 Light Blue Slim Stretch Jeans for Men",
+        "action_flag": 1,
+        "change_message": ""
+    },
+    "pk": 8
+},
+{
+    "model": "admin.logentry",
+    "fields": {
+        "action_time": "2018-11-17T16:13:13.254Z",
+        "user": [
+            "kamal"
+        ],
+        "content_type": [
+            "shop",
+            "product"
+        ],
+        "object_id": "4",
+        "object_repr": "Levi's 511 Blue Slim Stretch Jeans for Men",
+        "action_flag": 1,
+        "change_message": ""
+    },
+    "pk": 9
+},
+{
+    "model": "admin.logentry",
+    "fields": {
+        "action_time": "2018-11-17T16:17:34.385Z",
+        "user": [
+            "kamal"
+        ],
+        "content_type": [
+            "shop",
+            "product"
+        ],
+        "object_id": "5",
+        "object_repr": "Zip Up Hoodie",
+        "action_flag": 1,
+        "change_message": ""
+    },
+    "pk": 10
+},
+{
+    "model": "admin.logentry",
+    "fields": {
+        "action_time": "2018-11-17T16:18:58.471Z",
+        "user": [
+            "kamal"
+        ],
+        "content_type": [
+            "shop",
+            "product"
+        ],
+        "object_id": "6",
+        "object_repr": "Zip Up Hoodie",
+        "action_flag": 1,
+        "change_message": ""
+    },
+    "pk": 11
+},
+{
+    "model": "admin.logentry",
+    "fields": {
+        "action_time": "2018-11-17T16:20:01.663Z",
+        "user": [
+            "kamal"
+        ],
+        "content_type": [
+            "shop",
+            "product"
+        ],
+        "object_id": "7",
+        "object_repr": "Wildcraft Henley Sweater for Men (Navy-Blue)",
+        "action_flag": 1,
+        "change_message": ""
+    },
+    "pk": 12
+},
+{
+    "model": "admin.logentry",
+    "fields": {
+        "action_time": "2018-11-17T16:20:59.582Z",
+        "user": [
+            "kamal"
+        ],
+        "content_type": [
+            "shop",
+            "category"
+        ],
+        "object_id": "3",
+        "object_repr": "Book",
+        "action_flag": 1,
+        "change_message": ""
+    },
+    "pk": 13
+},
+{
+    "model": "admin.logentry",
+    "fields": {
+        "action_time": "2018-11-17T16:32:03.484Z",
+        "user": [
+            "kamal"
+        ],
+        "content_type": [
+            "shop",
+            "product"
+        ],
+        "object_id": "8",
+        "object_repr": "The Reckoning: A Novel",
+        "action_flag": 1,
+        "change_message": ""
+    },
+    "pk": 14
+},
+{
+    "model": "admin.logentry",
+    "fields": {
+        "action_time": "2018-11-17T16:33:30.536Z",
+        "user": [
+            "kamal"
+        ],
+        "content_type": [
+            "shop",
+            "product"
+        ],
+        "object_id": "9",
+        "object_repr": "Elevation",
+        "action_flag": 1,
+        "change_message": ""
+    },
+    "pk": 15
+},
+{
+    "model": "admin.logentry",
+    "fields": {
+        "action_time": "2018-11-17T16:34:33.359Z",
+        "user": [
+            "kamal"
+        ],
+        "content_type": [
+            "shop",
+            "product"
+        ],
+        "object_id": "10",
+        "object_repr": "Dark Sacred Night (A Ballard and Bosch Novel) ",
+        "action_flag": 1,
+        "change_message": ""
+    },
+    "pk": 16
+}
+]
