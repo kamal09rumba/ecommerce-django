@@ -131,6 +131,14 @@ CART_SESSION_ID = 'cart'
 
 # Email setup
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# sending mail using gmail smtp
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_HOST_USER = 'email_address@gmail.com'
+# EMAIL_HOST_PASSWORD = 'pass'
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
+
+
 
 # django paypal settings
 PAYPAL_RECEIVER_EMAIL = 'developer09kamallama@gmail.com'
