@@ -111,3 +111,4 @@ Procfile
 contenttype.json
 everything_else.json
 runtime.txt
+staticfiles/
