@@ -1,30 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 <html>
-<html>
-=======
-=======
->>>>>>> b8ca3f4abacf0f81d0323795a55e78be12880614
-{% load static %}
-<html>
-<head>
-    <link rel="stylesheet" href="{% static "css/pdf.css"%}">
-</head>
-<<<<<<< HEAD
->>>>>>> pdf invoice template
-=======
->>>>>>> b8ca3f4abacf0f81d0323795a55e78be12880614
 <body>
     <h1>My Shop</h1>
     <p>
         Invoice number: {{ order.id }} <br>
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-    </p>
-=======
-=======
->>>>>>> b8ca3f4abacf0f81d0323795a55e78be12880614
         <span class="secondary">
             {{ order.created|date:"M d, Y"}}
         </span>
@@ -64,9 +42,5 @@
     <span class="{% if order.paid %}paid{% else %}pending{% endif %}">
         {% if order.paid %}Paid{% else %}Pending Payment{% endif %}
     </span>
-<<<<<<< HEAD
->>>>>>> pdf invoice template
-=======
->>>>>>> b8ca3f4abacf0f81d0323795a55e78be12880614
 </body>
 </html>

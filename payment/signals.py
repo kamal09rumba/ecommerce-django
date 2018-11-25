@@ -6,8 +6,8 @@ from orders.models import Order
 def payment_notification(sender,**kwargs):
     ipn_obj = sender
     if ipn_obj.payment_status == ST_PP_COMPLETED:
-        # payment was succesful
-        order = get_object_or_404(Order, id= ipn_obj.invoice)
+        # payment was successful
+        order = get_object_or_404(Order, id=ipn_obj.invoice)
         # mark the order as paid
         order.paid = True
         order.save()

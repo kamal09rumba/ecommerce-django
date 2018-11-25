@@ -24,7 +24,7 @@ def order_create(request):
 
             #clear the cart
             cart.clear()
-            # launch asynchronous task
+            # launch asynchronous task(send order mail)
             # order_created.delay(order.id)
             # set the order in the session
             request.session['order_id'] = order.id
@@ -53,8 +53,3 @@ def admin_order_pdf(request,order_id):
                                            stylesheets=[weasyprint.CSS(
                                                settings.STATIC_ROOT + '/css/pdf.css')])
     return response
-<<<<<<< HEAD
-    # return render(request, 'orders/order/pdf.html', {'order':order})
-=======
-    # return render(request, 'orders/order/pdf.html', {'order':order})
->>>>>>> b8ca3f4abacf0f81d0323795a55e78be12880614
